@@ -58,7 +58,7 @@ function contentLoaded(){
             media = `<img class="responsive-img" src="${data.hdurl}">`
         } else {
             media = `<div class="video-container">
-                        <iframe src="${dat.hdurl}" width="560" height="315">
+                        <iframe src="${dat.hdurl}" width="560" height="315"></iframe>
                     </div>`
         }
 
